@@ -34,6 +34,7 @@
             <v-chip color="light-blue darken-4" text-color="white">{{project.tech.tech1}}</v-chip>
             <v-chip color="light-blue darken-4" text-color="white">{{project.tech.tech2}}</v-chip>
             <v-chip color="light-blue darken-4" text-color="white">{{project.tech.tech3}}</v-chip>
+            <v-chip color="light-blue darken-4" text-color="white">{{project.tech.tech4}}</v-chip>
           </v-card-text>
           <v-card-actions>
             <v-btn flat large dark color="light-blue darken-4" :href="project.git" target="_blank">
@@ -73,7 +74,7 @@ export default {
             tech3: "Vuetify",
             tech4: "Vue Router",
           },
-          poster: require("@/assets/todo.png"),
+          poster: require("@/assets/clinic.png"),
         },
         {
           dialog: false,
