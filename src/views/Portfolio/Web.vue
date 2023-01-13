@@ -65,6 +65,18 @@ export default {
         },
         {
           dialog: false,
+          title: "Website-Clinic",
+          git: "https://clinic-website-xi.vercel.app/",
+          tech: {
+            tech1: "Vue.js",
+            tech2: "VUEX",
+            tech3: "Vuetify",
+            tech4: "Vue Router",
+          },
+          poster: require("@/assets/todo.png"),
+        },
+        {
+          dialog: false,
           title: "Construction",
           git: "https://construction-five-ashen.vercel.app/",
           tech: {
