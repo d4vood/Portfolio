@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Abror Akhmadiy"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Davud Yusupov"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -50,7 +50,7 @@
               <p>
                 Hello! I’m <span
                   class="light-blue--text text--darken-4"
-              >Abror Akhmadiy</span>. I’m a professional 3d designer with over 6 years of
+              >Davud Yusupov</span>. I’m a professional 3d designer with over 6 years of
                 work experience, moving to web development.
                 Since I started my career in IT, I have been
                 progressing and working on myself and I have
@@ -83,26 +83,6 @@ export default {
   },
   data() {
     return {
-      icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
-        {
-          href: "https://stackoverflow.com/users/story/9660700",
-          icon: "fab fa-stack-overflow"
-        },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
-        {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
-          icon: "fab fa-linkedin-in"
-        },
-        {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
-          icon: "fab fa-xing"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-facebook-f"
-        },
-      ],
       text1: ["Front-End Developer", "3D Designer"],
       leftImage: require("../assets/image1.jpg").default,
       rightImage: require("../assets/image2.jpg").default,

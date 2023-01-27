@@ -32,8 +32,8 @@
     <v-toolbar flat dense color="transparent" scroll-off-screen>
       <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline">
-        <span class="font-weight-bold">Abror</span>
-        <span class="light-blue--text text--darken-4">Akhmadiy</span>
+        <span class="font-weight-bold">Davud</span>
+        <span class="light-blue--text text--darken-4">Yusupov</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
